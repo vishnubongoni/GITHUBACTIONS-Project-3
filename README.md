@@ -32,5 +32,3 @@ NeoShop is a modern **Spring Boot-based e-commerce UI project** with:
 - GitHub Actions
 
 ---
-
-# 📂 Project Structure
