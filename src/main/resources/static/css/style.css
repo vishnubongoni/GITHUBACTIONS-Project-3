@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg,#1a001f,#330033);
+    color: white;
+}
+
+/* NAV */
+.nav {
+    display:flex;
+    justify-content:space-between;
+    padding:20px 40px;
+    background: rgba(255,255,255,0.05);
+}
+
+.logo {
+    color:#ff4da6;
+    font-family:'Orbitron';
+}
+
+/* HERO */
+.hero {
+    text-align:center;
+    padding:100px 20px;
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+        url('https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da');
+    background-size:cover;
+}
+
+/* CAROUSEL */
+.offers {
+    overflow:hidden;
+    padding:30px;
+}
+
+.carousel {
+    display:flex;
+    gap:20px;
+    animation:scroll 15s linear infinite;
+}
+
+.slide {
+    min-width:300px;
+    text-align:center;
+}
+
+.slide img {
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:15px;
+}
+
+@keyframes scroll {
+    0% {transform:translateX(0);}
+    100% {transform:translateX(-50%);}
+}
+
+/* PRODUCTS */
+.products {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:40px;
+}
+
+.card {
+    background:rgba(255,255,255,0.1);
+    padding:15px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.card:hover {
+    transform:scale(1.05);
+}
+
+.card img {
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:10px;
+}
