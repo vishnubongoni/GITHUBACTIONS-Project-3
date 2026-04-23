@@ -1,6 +1,6 @@
 # 🛍️ NeoShop E-Commerce (Spring Boot + DevOps Project)
 
-NeoShop is a modern **Spring Boot-based e-commerce UI project** with :
+NeoShop is a modern **Spring Boot-based e-commerce UI project** with:
 - Pink themed UI 💖
 - Product listing with images 🛍️
 - Scrolling offers 🎠
